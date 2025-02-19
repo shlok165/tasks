@@ -1,0 +1,30 @@
+[0.359s] Invoking command in '/home/slok/tasks/task1ws/build/four_wheel_urdf': PYTHONPATH=/home/slok/tasks/task1ws/build/four_wheel_urdf/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/slok/tasks/task1ws/install/four_wheel_urdf/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/slok/tasks/task1ws/build/four_wheel_urdf/build
+[0.503s] running develop
+[0.603s] Removing /home/slok/tasks/task1ws/install/four_wheel_urdf/lib/python3.10/site-packages/four-wheel-urdf.egg-link (link to .)
+[0.621s] Invoked command in '/home/slok/tasks/task1ws/build/four_wheel_urdf' returned '0': PYTHONPATH=/home/slok/tasks/task1ws/build/four_wheel_urdf/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/slok/tasks/task1ws/install/four_wheel_urdf/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/slok/tasks/task1ws/build/four_wheel_urdf/build
+[0.623s] Invoking command in '/home/slok/tasks/task1ws/src/four_wheel_urdf': PYTHONPATH=/home/slok/tasks/task1ws/build/four_wheel_urdf/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/slok/tasks/task1ws/install/four_wheel_urdf/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/four_wheel_urdf build --build-base /home/slok/tasks/task1ws/build/four_wheel_urdf/build install --record /home/slok/tasks/task1ws/build/four_wheel_urdf/install.log --single-version-externally-managed install_data --force
+[0.759s] running egg_info
+[0.759s] writing ../../build/four_wheel_urdf/four_wheel_urdf.egg-info/PKG-INFO
+[0.759s] writing dependency_links to ../../build/four_wheel_urdf/four_wheel_urdf.egg-info/dependency_links.txt
+[0.759s] writing entry points to ../../build/four_wheel_urdf/four_wheel_urdf.egg-info/entry_points.txt
+[0.759s] writing requirements to ../../build/four_wheel_urdf/four_wheel_urdf.egg-info/requires.txt
+[0.760s] writing top-level names to ../../build/four_wheel_urdf/four_wheel_urdf.egg-info/top_level.txt
+[0.760s] reading manifest file '../../build/four_wheel_urdf/four_wheel_urdf.egg-info/SOURCES.txt'
+[0.761s] writing manifest file '../../build/four_wheel_urdf/four_wheel_urdf.egg-info/SOURCES.txt'
+[0.761s] running build
+[0.761s] running build_py
+[0.761s] running install
+[0.761s] running install_lib
+[0.761s] creating /home/slok/tasks/task1ws/install/four_wheel_urdf/lib/python3.10/site-packages/four_wheel_urdf
+[0.762s] copying /home/slok/tasks/task1ws/build/four_wheel_urdf/build/lib/four_wheel_urdf/__init__.py -> /home/slok/tasks/task1ws/install/four_wheel_urdf/lib/python3.10/site-packages/four_wheel_urdf
+[0.762s] byte-compiling /home/slok/tasks/task1ws/install/four_wheel_urdf/lib/python3.10/site-packages/four_wheel_urdf/__init__.py to __init__.cpython-310.pyc
+[0.762s] running install_data
+[0.762s] copying resource/four_wheel_urdf -> /home/slok/tasks/task1ws/install/four_wheel_urdf/share/ament_index/resource_index/packages
+[0.762s] copying package.xml -> /home/slok/tasks/task1ws/install/four_wheel_urdf/share/four_wheel_urdf
+[0.762s] copying launch/four_wheel.launch.py -> /home/slok/tasks/task1ws/install/four_wheel_urdf/share/four_wheel_urdf/launch
+[0.762s] copying urdf/four_wheel.urdf -> /home/slok/tasks/task1ws/install/four_wheel_urdf/share/four_wheel_urdf/urdf
+[0.762s] running install_egg_info
+[0.763s] Copying ../../build/four_wheel_urdf/four_wheel_urdf.egg-info to /home/slok/tasks/task1ws/install/four_wheel_urdf/lib/python3.10/site-packages/four_wheel_urdf-0.0.0-py3.10.egg-info
+[0.764s] running install_scripts
+[0.775s] writing list of installed files to '/home/slok/tasks/task1ws/build/four_wheel_urdf/install.log'
+[0.790s] Invoked command in '/home/slok/tasks/task1ws/src/four_wheel_urdf' returned '0': PYTHONPATH=/home/slok/tasks/task1ws/build/four_wheel_urdf/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/slok/tasks/task1ws/install/four_wheel_urdf/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/four_wheel_urdf build --build-base /home/slok/tasks/task1ws/build/four_wheel_urdf/build install --record /home/slok/tasks/task1ws/build/four_wheel_urdf/install.log --single-version-externally-managed install_data --force
