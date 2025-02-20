@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="joints">
+  <joint name="body_link_joint" type="fixed">
+    <parent link="base_footprint"/>
+    <child link="body_link"/>
+  </joint>
+
+  <joint name="front_left_wheel_joint" type="continuous">
+    <parent link="body_link"/>
+    <child link="front_left_wheel"/>
+    <origin xyz="-0.3 -0.35 -0.15" rpy="0 1.5708 1.5708"/>
+    <axis xyz="0 0 1"/>
+  </joint>
+
+  <joint name="front_right_wheel_joint" type="continuous">
+    <parent link="body_link"/>
+    <child link="front_right_wheel"/>
+    <origin xyz="-0.3 0.35 -0.15" rpy="0 1.5708 1.5708"/>
+    <axis xyz="0 0 1"/>
+  </joint>
+
+  <joint name="back_left_wheel_joint" type="continuous">
+    <parent link="body_link"/>
+    <child link="back_left_wheel"/>
+    <origin xyz="0.3 -0.35 -0.15" rpy="0 1.5708 1.5708"/>
+    <axis xyz="0 0 1"/>
+  </joint>
+
+  <joint name="back_right_wheel_joint" type="continuous">
+    <parent link="body_link"/>
+    <child link="back_right_wheel"/>
+    <origin xyz="0.3 0.35 -0.15" rpy="0 1.5708 1.5708"/>
+    <axis xyz="0 0 1"/>
+  </joint>
+</robot>

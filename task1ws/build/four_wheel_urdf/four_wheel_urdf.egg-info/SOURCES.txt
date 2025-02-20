@@ -8,9 +8,14 @@ setup.py
 ../../build/four_wheel_urdf/four_wheel_urdf.egg-info/requires.txt
 ../../build/four_wheel_urdf/four_wheel_urdf.egg-info/top_level.txt
 ../../build/four_wheel_urdf/four_wheel_urdf.egg-info/zip-safe
+config/four_wheel.rviz
 four_wheel_urdf/__init__.py
 launch/four_wheel.launch.py
 resource/four_wheel_urdf
 test/test_copyright.py
 test/test_flake8.py
 test/test_pep257.py
+urdf/body_link.xacro
+urdf/four_wheel.urdf.xacro
+urdf/joints.xacro
+urdf/wheels.xacro
