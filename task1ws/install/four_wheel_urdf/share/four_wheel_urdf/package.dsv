@@ -1,0 +1,6 @@
+source;share/four_wheel_urdf/hook/pythonpath.ps1
+source;share/four_wheel_urdf/hook/pythonpath.dsv
+source;share/four_wheel_urdf/hook/pythonpath.sh
+source;share/four_wheel_urdf/hook/ament_prefix_path.ps1
+source;share/four_wheel_urdf/hook/ament_prefix_path.dsv
+source;share/four_wheel_urdf/hook/ament_prefix_path.sh

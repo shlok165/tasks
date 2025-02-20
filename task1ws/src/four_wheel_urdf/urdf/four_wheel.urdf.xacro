@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<robot name="four_wheel_robot" xmlns:xacro="http://www.ros.org/wiki/xacro">
+  <xacro:include filename="body_link.xacro"/>
+  <xacro:include filename="wheels.xacro"/>
+  <xacro:include filename="joints.xacro"/>
+</robot>
